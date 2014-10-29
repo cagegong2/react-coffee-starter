@@ -13,9 +13,9 @@ require "./style.styl"
 require "Example/init"
 
 # render top-level react component
-VideoRecorder = require "./Video"
+Example = require "./Example"
 Application = React.createClass
 	render: ->
-		<VideoRecorder />
+		<Example />
 
 module.exports = Application
